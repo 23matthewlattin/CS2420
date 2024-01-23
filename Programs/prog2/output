@@ -1,0 +1,57 @@
+============== Program 2 Tests ==================
+ 1 - Testing isEmpty for empty list: passed
+ 2 - Testing search for empty list: passed
+ 3 - Testing front for empty list (should get an error and 'empty' person): 
+First:                       Last:                       ID#: -1
+ 4 - Testing back for empty list (should get an error and 'empty' person): 
+First:                       Last:                       ID#: -1
+ 5 - Testing printInOrder with an empty list (should be no output).
+ 6 - Testing printRevOrder with an empty list (should be no output).
+ 7 - Adding to list:  
+First:                Harry  Last:               Potter  ID#: 2010
+ 8 - Testing front:  passed
+ 9 - Testing back:  passed
+10 - Testing printInOrder with a single element in list.
+First:                Harry  Last:               Potter  ID#: 2010
+11 - Testing printRevOrder with a single element in list.
+First:                Harry  Last:               Potter  ID#: 2010
+12 - Add 5 more elements
+13 - Testing printInOrder .
+First:               Delenn  Last:                       ID#: 3892
+First:                Albus  Last:           Dumbledore  ID#: 1001
+First:             Hermoine  Last:              Granger  ID#: 2011
+First:                Harry  Last:               Potter  ID#: 2010
+First:                 John  Last:             Sheridan  ID#: 3705
+First:              Severus  Last:                Snape  ID#: 1520
+14 - Testing printRevOrder.
+First:              Severus  Last:                Snape  ID#: 1520
+First:                 John  Last:             Sheridan  ID#: 3705
+First:                Harry  Last:               Potter  ID#: 2010
+First:             Hermoine  Last:              Granger  ID#: 2011
+First:                Albus  Last:           Dumbledore  ID#: 1001
+First:               Delenn  Last:                       ID#: 3892
+15 - Testing search with an existing element: passed
+16 - Testing search with an non-existing element: passed
+17 - Testing removeElement with non-existent element: 
+Element not found in listThere should be six names in the list
+First:               Delenn  Last:                       ID#: 3892
+First:                Albus  Last:           Dumbledore  ID#: 1001
+First:             Hermoine  Last:              Granger  ID#: 2011
+First:                Harry  Last:               Potter  ID#: 2010
+First:                 John  Last:             Sheridan  ID#: 3705
+First:              Severus  Last:                Snape  ID#: 1520
+18 - Testing removeElement with existing name: 
+First:               Delenn  Last:                       ID#: 3892
+First:                Albus  Last:           Dumbledore  ID#: 1001
+First:             Hermoine  Last:              Granger  ID#: 2011
+First:                Harry  Last:               Potter  ID#: 2010
+First:              Severus  Last:                Snape  ID#: 1520
+19 - Remove the first name from the list
+First:                Albus  Last:           Dumbledore  ID#: 1001
+First:             Hermoine  Last:              Granger  ID#: 2011
+First:                Harry  Last:               Potter  ID#: 2010
+First:              Severus  Last:                Snape  ID#: 1520
+20 - Remove the last name from the list
+First:                Albus  Last:           Dumbledore  ID#: 1001
+First:             Hermoine  Last:              Granger  ID#: 2011
+First:                Harry  Last:               Potter  ID#: 2010
